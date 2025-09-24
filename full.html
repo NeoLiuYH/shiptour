@@ -4,7 +4,20 @@
 <title>WIND RIDER Tour by Neo</title>
 <meta charset="utf-8">
 <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
-<style> @-ms-viewport { width: device-width; } </style>
+<style> @-ms-viewport { width: device-width; } 
+footer {
+    position: fixed;
+    right: 12px;
+    bottom: 12px;
+    z-index: 10001;          /* 壓過 pano 與按鈕層級 */
+    padding: 6px 10px;
+    font-size: 14px;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    border-radius: 6px;
+    pointer-events: none;    /* 避免擋到底下視角拖曳（可視需要拿掉） */
+  }
+</style>
 <link rel="stylesheet" href="vendor/reset.min.css">
 <link rel="stylesheet" href="style.css">
 </head>
