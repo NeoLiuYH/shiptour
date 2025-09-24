@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-wheel-house">
+        <li class="text">Wheel house</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-wheel-house-2">
+        <li class="text">Wheel house 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-wheel-house-3">
+        <li class="text">Wheel house 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-wheel-house--chart-table">
+        <li class="text">Wheel house -Chart Table</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-maintenance-walkway--catwalk">
+        <li class="text">Maintenance Walkway / Catwalk</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-bridge-wings">
+        <li class="text">Bridge Wings</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-helicopter-platform">
+        <li class="text">Helicopter Platform</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-compass-deck">
+        <li class="text">Compass Deck</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-after-training-wh">
+        <li class="text">After Training W/H</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-after-training-wh-2">
+        <li class="text">After Training W/H 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-after-training-wh-3">
+        <li class="text">After Training W/H 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-under-training-wh">
+        <li class="text">Under Training W/H</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-under-training-wh-2">
+        <li class="text">Under Training W/H 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-nautical-simulator-rm">
+        <li class="text">Nautical Simulator RM</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-nautical-simulator-rm-2">
+        <li class="text">Nautical Simulator RM 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-engine-room-training-station">
+        <li class="text">Engine Room (Training Station)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-desktop-trainer">
+        <li class="text">Desktop Trainer</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-high-voltage-station">
+        <li class="text">High Voltage Station</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-classroom-1">
+        <li class="text">Classroom 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-classroom-2">
+        <li class="text">Classroom 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-audiovisual-classroom-1">
+        <li class="text">Audiovisual Classroom 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-audiovisual-classroom2">
+        <li class="text">Audiovisual Classroom2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-meeting-room">
+        <li class="text">Meeting room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-cinema--large-conference-rm">
+        <li class="text">Cinema &amp; Large Conference RM</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-dining-zone">
+        <li class="text">Dining Zone</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-student-room">
+        <li class="text">Student room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-student-room-toilet">
+        <li class="text">Student room toilet</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-hospital">
+        <li class="text">Hospital</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-hospital-toilet">
+        <li class="text">Hospital toilet</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-co2-bottle-room">
+        <li class="text">CO2 Bottle room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-co2-bottle-room-2">
+        <li class="text">CO2 Bottle room 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-bow-bosun-store">
+        <li class="text">Bow Bosun store</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-bow-bosun-store-2">
+        <li class="text">Bow Bosun store 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-bow-bosun-store-3">
+        <li class="text">Bow Bosun store 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-pub-toilm">
+        <li class="text">PUB. TOIL.(M)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-bow-thruster-rm">
+        <li class="text">Bow Thruster RM</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-bow-thruster-rm-2">
+        <li class="text">Bow Thruster RM 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-student-laundry--refuge-area">
+        <li class="text">Student Laundry / Refuge Area</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-escape--trunk">
+        <li class="text">Escape  Trunk</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-gym-2">
+        <li class="text">GYM 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-gym-3">
+        <li class="text">GYM 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-lifeboat">
+        <li class="text">Lifeboat</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42-rescue-boat">
+        <li class="text">Rescue boat</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43-stern-mooring-station">
+        <li class="text">Stern Mooring Station</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="44-bow-mooring-station">
+        <li class="text">Bow Mooring Station</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="45-bow-mooring-station-2">
+        <li class="text">Bow Mooring Station 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="46-bow-mooring-station-3">
+        <li class="text">Bow Mooring Station 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="47-bow-hull">
+        <li class="text">Bow hull</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="48-bow-hull-2">
+        <li class="text">Bow hull 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="49-hawse-pipe">
+        <li class="text">Hawse Pipe</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="50-chain-locker">
+        <li class="text">Chain Locker</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="51-spare-anchor">
+        <li class="text">Spare Anchor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="52-fire-station">
+        <li class="text">Fire station</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="53-pilot-boarding-area">
+        <li class="text">Pilot Boarding Area</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="54-fore-aux-er">
+        <li class="text">Fore AUX E/R</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="55-fore-aux-rm-fuel-booster-system">
+        <li class="text">Fore AUX RM Fuel Booster System</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="56-fore-aux-rm-3rd-spare-space">
+        <li class="text">Fore AUX RM 3rd Spare Space</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="57-fore-aux-rm-tank-top-">
+        <li class="text">Fore AUX RM Tank Top </li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="58-fore-aux-rm-tank-top-2">
+        <li class="text">Fore AUX RM Tank TOP 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="59-engine-control-rm">
+        <li class="text">Engine Control RM</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="60-eng-rm-2nd-deck">
+        <li class="text">Eng RM 2nd Deck</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="61-eng-rm-generator-2nd">
+        <li class="text">Eng RM Generator 2nd</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="62-engine-room-tank-top-propeller-shaft">
+        <li class="text">Engine Room Tank Top Propeller Shaft</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="63-aft-aux-engine-rm-2nd">
+        <li class="text">Aft. Aux. Engine RM 2nd</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="64-aft-aux-engine-rm-tank-top">
+        <li class="text">Aft. Aux. Engine RM Tank Top</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="65-aft-aux-rm-3rd-purifier">
+        <li class="text">Aft AUX RM 3rd Purifier</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="66-aft-aux-rm-3rd-central-cooler">
+        <li class="text">Aft AUX RM 3rd Central Cooler</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="67-aft-aux-rm-3rd-scavenge-space">
+        <li class="text">Aft AUX RM 3rd Scavenge Space</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
