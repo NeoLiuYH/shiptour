@@ -26,3 +26,6 @@ Customization
 This application may be used as is or may be further developed and customized.
 You can change the application by editing the Javascript, CSS and `index.html`
 files.
+
+site is published at 
+https://NeoLiuYH.github.io/shiptour/
